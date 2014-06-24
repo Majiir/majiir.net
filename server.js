@@ -7,7 +7,6 @@ mongoose.connect('mongodb://localhost/majiirnet');
 
 var app = express();
 
-require('dustjs-helpers');
 app.engine('dust', cons.dust);
 
 app.enable('trust proxy');
