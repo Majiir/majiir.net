@@ -8,7 +8,7 @@ module.exports = exports = function (app, images) {
 
 	app.get('/random', function (req, res) {
 		var id = images[Math.floor(Math.random() * images.length)];
-		res.redirect('/v/' + image);
+		res.redirect('/v/' + id);
 	});
 
 	app.get(/^\/v\/(\w+)$/, function (req, res) {
