@@ -1,0 +1,6 @@
+{>container/}
+{<container_body}
+  <a href="/random">
+    <img src="/sunny.jpg">
+  </a>
+{/container_body}
